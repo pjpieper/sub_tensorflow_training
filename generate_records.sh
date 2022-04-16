@@ -1,5 +1,6 @@
 #!bin/bash
 
+mkdir ./model/output_files/
 
 LAYOUT_PATH=../../../../../model
 cd ./sub_utilities/src/network_wrapper/training/scripts/
