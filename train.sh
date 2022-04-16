@@ -12,7 +12,7 @@ cp ./train.config ./training/
 
 
 echo "Moving Training folder to setup training"
-cp -a ./training/ ./sub_utilities/src/network_wrapper/tf_tft_models/third_party/models/research/object_detection/legacy/
+cp -a ./training/ ./sub_utilities/src/network_wrapper/tf_tft_models/third_party/models/research/object_detection/legacy/training/
 cd sub_utilities/src/network_wrapper/tf_tft_models/third_party/models/research/object_detection/legacy/
 
 echo "Beginning Training"
