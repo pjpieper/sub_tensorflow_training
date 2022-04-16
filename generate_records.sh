@@ -1,7 +1,7 @@
 #!bin/bash
 
 
-$LAYOUT_PATH=../../../../../model
+$LAYOUT_PATH= '../../../../../model'
 mkdir model/output_files/
 cd ./sub_utilities/src/network_wrapper/training/scripts/
 
