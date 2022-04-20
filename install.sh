@@ -12,7 +12,7 @@ git checkout network_wrapper_changes # Until it's merged into master
 cd src/network_wrapper/
 sh install.sh
 
-cd ./sub_utilities/src/network_wrapper/tf_trt_models/third_party/models/research
+cd ./tf_trt_models/third_party/models/research
 sudo python3 setup.py build
 sudo python3 setup.py install
 cd ../../../../../../../
